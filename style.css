@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #2382A1;
+}
+
+.contenedor-principal{
+    display: flex;
+    justify-content: space-between;
+    background: rgb(3,37,65);
+}
+
+.contenedor-principal h1{
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-left: 12rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+
+.cont-button{
+    padding: 20px 40px;
+}
+
+.cont-button button{
+    border: 3px solid white;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: rgb(3,37,65);
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.cont-button button:hover{
+    background-color: rgb(12, 119, 207);
+    font-weight: bold;
+}
+
+/*desing in the part movies*/
+
+.contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 40px 0 0 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-movies{
+    width: 400px;
+    height: 600px;
+    background-color: rgb(3,37,65);
+    margin: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+h3{
+    font-size: 23px;
+    margin: 5px 0;
+    color: #ffff;
+}
+
+p{
+    font-size: 17px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 5px 0;
+    color: #ffff;
+}
+
+
+.movie img{
+    border-radius: 10px;
+    width: 100%;
+    height: 450px;
+    background-size: cover;
+}
